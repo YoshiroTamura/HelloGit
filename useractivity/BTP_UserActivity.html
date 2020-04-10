@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>BTP User Activity Map</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel='stylesheet' href="css/btp.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/d3v4.2.6.js"></script>
+<script type="text/javascript" src="js/queue.v1.js"></script>
+<script type="text/javascript" src="js/BTP_UserActivity.js"></script>
+<script type="text/javascript" src="js/btphtmltemplate.js"></script>
+</head>
+<style>
+html, body {
+    width: 100%;
+    height: 100%;
+    margin:0 ;
+}
+</style>
+<body onload="initialize()">
+  <div id="top_bar" style="background-color:#0098db;padding:5px;">
+  <form id="f_paintmenu" name="f_paintmenu">
+  <table>
+  <tr>
+    <td style="font-size:18px;font-weight:bold;color:#FFFFFF;padding:3px 15px;">BTP User Activity Map</td>
+    <td style="font-size:12px;color:#FFFFFF;padding-left:20px;">File : </td>
+    <td style="font-size:12px;color:#FFFFFF;padding-left:5px;">
+       <select id="f_FileName" name="f_FileName" style="width:200px;font-size:12px;" onchange="readFile(this.value)">
+       </select>
+    </td>
+    <td style="padding-left:20px;">
+       <input type="button"  style="font-size:12px;width:150px;" onclick="openPieChartWindow()" value="Sessions Pie Chart">
+    </td>
+    <td style="padding-left:20px;">
+       <input type="button"  style="font-size:12px;width:150px;" onclick="openBarChartWindowNewUser()" value="New User / Repeater">
+    </td>
+    <td style="padding-left:20px;">
+       <input type="button"  style="font-size:12px;width:150px;" onclick="openBarChartWindowDuration()" value="Duration">
+    </td>
+    <td style="padding-left:100px;">
+       <input type="button"  style="font-size:12px;width:10px;" onclick="checkCountryName()" value="">
+    </td>
+  </tr>
+
+  </table>
+  </form>
+  </div>
+</body>
+</html>

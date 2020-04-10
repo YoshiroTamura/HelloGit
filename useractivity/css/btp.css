@@ -1,0 +1,431 @@
+.town-tooltip:before, 
+.country-tooltip:before,
+.sessioncountry-tooltip:before
+{
+	border-right-color: transparent;//#fff;
+}
+
+.town-tooltip,
+.country-tooltip,
+{
+	padding: 2px 6px;
+	line-height: 12px;
+	text-align: center;
+}
+
+.sessioncountry-tooltip
+{
+    padding: 0px;
+	line-height: 16px;
+}
+
+div.legend
+{
+	font-size: 14px;
+    font-weight: normal;
+    border-radius:4px;
+    border: 1px solid #909090;
+    background-color:#ffffff;
+    padding:5px;
+    opacity:0.9;
+}
+
+div.sessioncountryTool
+{
+	font-size: 14px;
+    font-weight: normal;
+    padding:5px;
+}
+
+div.sessioncountryinfo TD
+{
+    padding: 2px 3px;
+}
+
+div.importvalueTool
+{
+	font-size: 12px;
+    font-weight: normal;
+}
+
+
+div.legend TD,
+div.importvalueTool TD 
+{
+    padding: 1px 3px;
+}
+
+
+
+div.legend TH.title
+{
+    padding: 5px;
+}
+
+div.sessioncountry TD.valuecolumn
+{
+    padding: 0px 5px;
+	text-align: center;
+}
+
+div.legend TD.titlecolumn,
+div.legend TD.sharecolumn,
+div.sessioncountry TD.titlecolumn
+{
+	background: transparent;
+    padding: 0px 7px;
+	text-align: right;
+}
+
+div.importvalue TD.titlecolumn
+{
+	background: transparent;
+    padding: 2px 5px;
+	text-align: left;
+}
+
+div.importvalue TD.valuecolumn 
+{
+    padding: 0px 5px;
+	text-align: right;
+}
+div.importvalue TD.unitcolumn 
+{
+    padding: 2px;
+	font-size: 10px;
+	text-align: center;
+}
+
+div.legend TD.spancolumn
+{
+	font-size: 12px;
+	text-align: center;
+    padding: 0px 0px 5px 0px;
+}
+
+div.legend TD.valuecolumn {
+	background-color: transparent;
+    padding: 0px 1px;
+	text-align: left;
+}
+
+div.buttoninlegend {
+    padding: 5px 10px;
+	text-align: center;
+}
+
+div.legend .button {
+    font-size:12px;
+    margin:5px 30px;
+}
+
+div.sessioncountry {
+    padding: 5px;
+}
+
+div.source
+{
+	font-size: 14px;
+    font-weight: normal;
+}
+
+div.companylist,
+div.btnexport
+{
+    position: absolute;
+    width: 100px;
+    height: 18px;
+	text-align: center;
+	font-size: 14px;
+//    font-weight: bold;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+    border: 1px solid #909090;
+}
+
+div.nodata {
+//    position: absolute;
+    width: 500px;
+    height: 50px;
+	text-align: center;
+	font-size: 20px;
+    padding: 30px;
+}
+
+div.zoom {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+	text-align: center;
+	font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+    border: 1px solid #909090;
+}
+
+div.rank {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+	text-align: center;
+	font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+    border: 1px solid #909090;
+}
+
+div.barscale {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+	text-align: center;
+	font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+    border: 1px solid #909090;
+}
+
+div.companylist:hover,
+div.btnexport:hover,
+div.zoom:hover,
+div.rank:hover,
+div.barscale:hover {
+    background-color: #c0c0c0;
+}
+
+/*
+div.search_commodity_header,
+div.company_list_header
+{
+    position: fixed !important;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;  
+}
+*/
+
+div.search_commodity_header {
+    background-color: #660033;  
+}
+
+div.company_list_header {
+    background-color: #804080;  
+}
+
+div.company_info_header {
+    color: #fff;
+    font-size:18px;
+    font-weight:bold;
+    background-color: #003366;  
+    padding: 10px;
+}
+
+
+div.result_number,
+div.company_number,
+div.company_page
+{
+	font-size: 12px;
+    font-weight:bold;
+    background-color: #ffffff;  
+    color: #000000;
+    padding: 8px 25px 5px 25px;
+    width: 100%;
+}
+
+div.company_number,
+div.company_page
+{
+    float: left;
+}
+
+div.company_number {
+    width: 650px;
+}
+
+div.company_page {
+    width: 110px;
+	text-align: center;
+}
+
+
+div.result_list,
+div.company_list,
+div.company_info,
+div.product_list
+{
+	font-size: 12px;
+    padding: 0px 20px;
+}
+
+div.company_info
+{
+    margin: 10px 0px;  
+}
+
+div.result_list thead,
+div.result_list tbody,
+div.company_list thead,
+div.company_list tbody,
+div.company_info tbody,
+div.product_list thead,
+div.product_list tbody {
+    display: block;
+}
+
+div.result_list tbody,
+div.company_list tbody,
+div.product_list tbody {
+    overflow-y: scroll;
+}
+
+div.result_list tbody
+{
+    height: 300px;
+}
+
+div.company_list tbody {
+    height: 450px;
+}
+
+div.product_list tbody
+{
+    height: 150px;
+}
+
+div.result_list TH,
+div.company_list TH,
+div.company_info TH,
+div.product_list TH
+{
+    color: #ffffff;  
+    background-color: #306030;
+}
+
+div.result_list TR.result:nth-of-type(odd),
+div.company_list TR.result:nth-of-type(odd),
+div.product_list TR.result:nth-of-type(odd)
+{
+    background-color: #f0f0ff;
+}
+
+div.result_list TR.result:nth-of-type(even),
+div.company_list TR.result:nth-of-type(even),
+div.product_list TR.result:nth-of-type(even)
+{
+    background-color: #fcfffc;
+}
+
+div.company_info TR
+{
+    background-color: #f9f9f9;
+}
+
+
+div.result_list TD
+{
+	vertical-align: top;
+    padding: 5px;
+}
+
+div.result_list TH.hscode,
+div.result_list TD.hscode {
+    width: 60px;
+}
+
+div.result_list TH.description,
+div.result_list TD.description {
+    width: 450px;
+}
+
+div.result_list TD.description strong {
+    background-color: #ffc0c0;
+}
+
+div.company_list table {
+    table-layout:fixed;
+}
+
+div.company_list TH,
+div.company_list TD {
+    word-wrap:break-word;
+    overflow-wrap:break-word;
+    word-break: break-all;
+}
+
+div.company_list TH.companyname,
+div.company_list TD.companyname {
+    width: 250px;
+}
+
+div.company_list TH.employees,
+div.company_list TD.employees {
+    width: 90px;
+}
+
+div.company_list TH.country,
+div.company_list TH.city,
+div.company_list TD.country,
+div.company_list TD.city {
+    width: 100px;
+}
+
+div.company_list TH.url,
+div.company_list TH.email,
+div.company_list TD.url,
+div.company_list TD.email {
+    width: 200px;
+}
+
+div.company_info TD.title
+{
+    width: 150px;
+}
+
+div.company_info TD.value
+{
+    width: 500px;
+}
+
+div.product_list table {
+    table-layout:fixed;
+}
+
+div.product_list TH,
+div.product_list TD {
+    word-wrap:break-word;
+    overflow-wrap:break-word;
+//    word-break: break-all;
+}
+
+
+div.product_list TH {
+    font-weight:normal;
+}
+
+div.product_list TH.product,
+div.product_list TD.product {
+    width: 300px;
+}
+
+div.product_list TH.tradetype,
+div.product_list TD.tradetype {
+    width: 68px;
+    padding: 0px;
+    text-align: center;
+}
+
+div.exportcsv,
+div.pagebtn {
+    position: absolute;
+    padding: 3px;
+}
+
